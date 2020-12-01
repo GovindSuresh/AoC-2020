@@ -5,7 +5,7 @@ with open('day_1_data.txt') as f:
 
 # PROBLEM 1
 
-# Attempt 1 - Assuming we can have duplicates so cant use lists, 
+# Attempt 1 - Assuming we can have duplicates so cant use sets, 
 # Loop over the list once, loop over a second time to then try each subsequent number with our first number
 # Check using if statement 
 for num_1 in data:
