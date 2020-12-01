@@ -6,7 +6,9 @@ import operator
 with open('day_1_data.txt') as f:
     data = [int(line.rstrip()) for line in f]
 
-# Problem 1: 
+# PROBLEM 1:
+
+# Get all combinations of 2 numbers
 combos = combinations(data, 2)
 # Loop over each combo and check if they sum to 2020 
 for i in combos:
@@ -16,7 +18,9 @@ for i in combos:
 
 print(f'Product of 2 numbers: {result}\n')
 
-# Get all combos of the 2 or 3 numbers
+# PROBLEM 2: 
+
+# Get all combos of 3 numbers
 combos = combinations(data, 3)
 # Loop over each combo and check if they sum to 2020 
 for i in combos:
