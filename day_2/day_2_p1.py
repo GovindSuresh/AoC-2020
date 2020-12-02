@@ -10,10 +10,9 @@ with open('day_2_data.txt') as f:
 
         # Get min and max + letter
         # Need to isolate the counts of the policy and the letter
-        counts = pw_combo[:-1]
-        letter = counts[0][-1].rstrip()
-        min_c = int(counts[0][:-1].rstrip().split('-')[0])
-        max_c = int(counts[0][:-1].rstrip().split('-')[1])
+        letter = policy[-1].rstrip()
+        min_c = int(policy[:-1].rstrip().split('-')[0])
+        max_c = int(policy[:-1].rstrip().split('-')[1])
         
 
         if letter in pw:
